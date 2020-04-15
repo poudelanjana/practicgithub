@@ -1,0 +1,56 @@
+@import'var';
+
+.bg-light {
+    background-color: $anu !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 30px;
+    padding-left: .5rem;
+    color: #000;
+    padding-top:20px;
+}
+.navbar-nav {
+    list-style: none;
+    padding-right: 200px;
+    color: #000;
+}
+.slider{
+    background-color: $b;
+    height: 100vh;
+    position: relative;
+    img{
+       
+    }
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: rgba(0,0,0,.9);
+    border-bottom: 2px solid red;
+}
+.dawnbanner{
+   min-height: 200px;
+   width: 70%;
+    background-color:#fff;
+    box-shadow: 0px 0px 20px rgba(0,0,0,.7);
+    position: absolute;
+    bottom:-100px;
+    left:150px;
+    img{
+         margin-top:50px;
+        margin-left:30px;
+        float: left;
+    }
+    p{
+        margin-top:50px;
+        float:right;
+    }
+
+}
+.box{   margin:50px 20px 50px 0px;
+
+     img{
+       float: left;
+    }
+    p{
+        float:right; 
+    }
+}
